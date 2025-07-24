@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>أقسام التركيب في اللغة العربية</title>
+
+  <!-- Bootstrap RTL -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    body {
+      background: linear-gradient(135deg, #f8f9fa, #e3f2fd);
+      font-family: 'Tajawal', sans-serif;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 20px;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+
+    .sidebar a {
+      display: block;
+      margin-bottom: 15px;
+      color: #0d6efd;
+      font-weight: bold;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .sidebar a:hover {
+      color: #084298;
+      transform: translateX(-5px);
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+
+    .table thead {
+      background-color: #0d6efd;
+      color: white;
+    }
+
+    .table tbody tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    h1, h4 {
+      color: #0d6efd;
+    }
+
+    .icon-heading i {
+      color: #0d6efd;
+      margin-left: 10px;
+    }
+
+    /* تمييز الحدود لكل جدول بلون مختلف */
+    #syntax {
+      border-left: 5px solid #0d6efd !important;
+      border: 5px solid #0d6efd !important;
+    }
+
+    #rhetoric {
+      border-left: 5px solid #198754 !important;
+      border: 5px solid #198754 !important;
+    }
+
+    #style {
+      border-left: 5px solid #ffc107 !important;
+      border: 5px solid #ffc107 !important;
+    }
+
+    #mixed {
+      border-left: 5px solid #35f500 !important;
+      border: 5px solid #ff9f9f !important; 
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-5">
+  <div class="row">
+    
+    <!-- Sidebar -->
+    <div class="col-lg-3 mb-4">
+      <div class="sidebar">
+        <h5 class="text-primary mb-3"><i class="fas fa-bars"></i> القائمة</h5>
+        <a href="#definition"><i class="fas fa-lightbulb"></i> تعريف التركيب</a>
+        <a href="#syntax"><i class="fas fa-link"></i> التركيب النحوي</a>
+        <a href="#rhetoric"><i class="fas fa-comments"></i> التركيب البلاغي</a>
+        <a href="#style"><i class="fas fa-pen-nib"></i> التركيب الأسلوبي</a>
+        <a href="#mixed"><i class="fas fa-compress-arrows-alt"></i> التركيب المزجي</a>
+        <a href="#" class="mt-3"><i class="fas fa-arrow-up"></i> العودة لأعلى</a>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="col-lg-9">
+
+      <div class="text-center mb-4">
+        <h1><i class="fas fa-book-open"></i> أقسام التركيب في اللغة العربية</h1>
+        <p class="lead">شرح مبسط لأقسام التراكيب مع أمثلة والفرق بينها</p>
+      </div>
+
+      <!-- التعريف -->
+      <div id="definition" class="card p-4 mb-5">
+        <h4 class="icon-heading mb-3"><i class="fas fa-lightbulb"></i> ما هو التركيب؟</h4>
+        <p><strong>التركيب:</strong> هو جمع كلمتين أو أكثر لتكوين معنى جديد، وغالبًا يكون له وظيفة نحوية أو بلاغية أو أسلوبية في الجملة.</p>
+      </div>
+
+<!-- التركيب النحوي -->
+<div id="syntax" class="card p-4 mb-5 border-start border-primary border-5">
+  <h4 class="mb-4"><i class="fas fa-link me-2"></i> التركيب النحوي</h4>
+  <table class="table table-bordered table-hover text-center align-middle">
+    <thead>
+      <tr>
+        <th>القسم</th>
+        <th>التعريف</th>
+        <th>مثال</th>
+        <th>الشرح</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>التركيب الإسنادي</td>
+        <td>ربط بين مسند ومسند إليه (جملة كاملة)</td>
+        <td>الطالبُ مجتهدٌ</td>
+        <td>يُفيد معنى تام، يصلح أن يكون جملة مستقلة</td>
+      </tr>
+      <tr>
+        <td>التركيب الإضافي</td>
+        <td>كلمتان، الثانيّة مضافة إلى الأولى</td>
+        <td>كتابُ الطالبِ</td>
+        <td>لا يعطي معنىً تامًا وحده، ويُستخدم غالبًا كجزء من الجملة</td>
+      </tr>
+      <tr>
+        <td>التركيب الوصفي</td>
+        <td>اسم + صفة توافقه في الإعراب والنوع</td>
+        <td>طالبٌ مجتهدٌ</td>
+        <td>الصفة تتبع الموصوف وتعطيه مزيدًا من المعنى</td>
+      </tr>
+      <tr>
+        <td>التركيب العطفي</td>
+        <td>كلمتان بينهما حرف عطف</td>
+        <td>محمدٌ وعليٌ</td>
+        <td>يفيد الجمع أو التخيير أو الترتيب حسب أداة العطف</td>
+      </tr>
+      <tr>
+        <td>التركيب الجرّي</td>
+        <td>حرف جر + اسم مجرور</td>
+        <td>في المدرسةِ</td>
+        <td>يعمل كجار ومجرور، يُكمّل المعنى</td>
+      </tr>
+      <tr>
+        <td>التركيب البياني</td>
+        <td>توضيح الكلمة بعطف بيان أو بدل</td>
+        <td>أبو بكرٍ الصدّيق</td>
+        <td>توضيح أو تعيين معنى الكلمة</td>
+      </tr>
+      <tr>
+        <td>التركيب المزجي</td>
+        <td>كلمتان امتزجتا لتصبحا علمًا</td>
+        <td>بعلبك، حضرموت</td>
+        <td>تشكل اسم علم مركب لا يُفصل</td>
+      </tr>
+      <tr>
+        <td>التركيب العددي</td>
+        <td>عدد + معدود بقواعد معينة</td>
+        <td>ثلاثةُ طلابٍ</td>
+        <td>يُراعى فيه توافق العدد مع المعدود</td>
+      </tr>
+      <tr>
+        <td>التركيب الشرطي</td>
+        <td>جملة شرط + جواب الشرط</td>
+        <td>إن تذاكرْ تنجحْ</td>
+        <td>يفيد تحقق الشرط ونتيجته</td>
+      </tr>
+      <tr>
+        <td>التركيب الظرفي</td>
+        <td>ظرف + مضاف إليه</td>
+        <td>بعدَ الغروبِ</td>
+        <td>يُحدد الزمان أو المكان</td>
+      </tr>
+      <tr>
+        <td>التركيب المستقل</td>
+        <td>جملة تامة المعنى بذاتها</td>
+        <td>الكرمُ فضيلةٌ</td>
+        <td>جملة كاملة مستقلة عن غيرها</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+      <!-- التركيب البلاغي -->
+      <div id="rhetoric" class="card p-4 mb-5 border-start border-success border-5">
+        <h4 class="mb-4"><i class="fas fa-comments me-2"></i> التركيب البلاغي</h4>
+        <table class="table table-bordered table-hover text-center align-middle">
+          <thead>
+            <tr>
+              <th>القسم</th>
+              <th>التعريف</th>
+              <th>مثال</th>
+              <th>الشرح</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>التشبيه</td>
+              <td>التشبيه بين شيئين باستخدام أداة تشبيه</td>
+              <td>كأنَّ القمرَ وجهُهُ</td>
+              <td>لتقريب المعنى وإظهار المماثلة</td>
+            </tr>
+            <tr>
+              <td>الاستعارة</td>
+              <td>ذكر شيء في غير موضعه لبيان معنى آخر</td>
+              <td>أسد في المعركة</td>
+              <td>لدلالة على الشجاعة والقوة</td>
+            </tr>
+            <tr>
+              <td>الكناية</td>
+              <td>التعبير عن معنى غير مباشر</td>
+              <td>فلان طويل النَفس</td>
+              <td>للدلالة على الصبر</td>
+            </tr>
+            <tr>
+              <td>الطباق</td>
+              <td>المقابلة بين ضدين</td>
+              <td>الليل والنهار</td>
+              <td>لإبراز الفرق والتباين</td>
+            </tr>
+            <tr>
+              <td>المقابلة</td>
+              <td>تعريف مقابل تعريف آخر</td>
+              <td>خيرٌ وشرٌ</td>
+              <td>لإظهار التضاد</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- التركيب الأسلوبي -->
+      <div id="style" class="card p-4 mb-5 border-start border-warning border-5">
+        <h4 class="mb-4"><i class="fas fa-pen-nib me-2"></i> التركيب الأسلوبي</h4>
+        <table class="table table-bordered table-hover text-center align-middle">
+          <thead>
+            <tr>
+              <th>القسم</th>
+              <th>التعريف</th>
+              <th>مثال</th>
+              <th>الشرح</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>النداء</td>
+              <td>مناداة المخاطب أو المتكلم عنه</td>
+              <td>يا صديقي!</td>
+              <td>لجذب الانتباه</td>
+            </tr>
+            <tr>
+              <td>الاستفهام</td>
+              <td>طرح سؤال</td>
+              <td>متى تبدأ الدراسة؟</td>
+              <td>للحصول على معلومة</td>
+            </tr>
+            <tr>
+              <td>التعجب</td>
+              <td>التعبير عن الدهشة أو الإعجاب</td>
+              <td>ما أجمل الطبيعة!</td>
+              <td>لتعزيز المشاعر</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- التركيب المزجي -->
+      <div id="mixed" class="card p-4 mb-5 border-start border-warning border-5">
+        <h4 class="mb-4"><i class="fas fa-compress-arrows-alt text-warning me-2"></i> التركيب المزجي</h4>
+        <table class="table table-bordered table-hover text-center align-middle">
+          <thead>
+            <tr>
+              <th>النوع</th>
+              <th>التعريف</th>
+              <th>مثال</th>
+              <th>الشرح</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>مزج نحوي وبلاغي</td>
+              <td>تركيب يحمل وظيفة نحوية وفي نفس الوقت تأثير بلاغي</td>
+              <td>الليلُ داجٍ والصبحُ مشرقٌ</td>
+              <td>جملة إسنادية تحمل تشبيه أو طباق</td>
+            </tr>
+            <tr>
+              <td>مزج بلاغي وأسلوبي</td>
+              <td>تركيب يجمع بين البلاغة والأسلوب</td>
+              <td>يا ليت الشباب يعود يومًا</td>
+              <td>تعجب ونداء في نفس الوقت</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div> <!-- End main content -->
+  </div>
+</div>
+
+</body>
+</html>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Footer -->
+<footer class="text-center mt-5 py-4 bg-light rounded shadow-sm">
+  <p class="mb-0 text-muted">
+    &copy; 2025 جميع الحقوق محفوظة لـ <strong>AbdElwhab Hany Al-Azhari</strong> <i class="fas fa-feather-alt text-primary"></i>
+  </p>
+</footer>
+
+</body>
+</html>
